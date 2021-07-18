@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context=".app_VirtualAssistant.appVirtualAssistantStep06Goal"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_VirtualAssistant"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <ImageView
+        android:id="@+id/imageViewStepNumber"
+        android:layout_width="56dp"
+        android:layout_height="67dp"
+        android:background="@color/MyDracmaColorTextWhite"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/ic_number_6" />
+
+    <TextView
+        android:id="@+id/textViewStepName"
+        android:layout_width="352dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:gravity="top|end"
+        android:inputType=""
+        android:text="@string/lbl_Goal"
+        android:textAlignment="textEnd"
+        android:textColor="@color/MyDracmaColorBlue"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAppLogo" />
+
+    <TextView
+        android:id="@+id/textViewStepHelp"
+        style="@style/MyDracmaTextHelp"
+        android:text="@string/txt_StepGoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepName" />
+
+    <ImageView
+        android:id="@+id/imageAppLogo"
+        style="@style/MyDracmaImageLogo"
+        android:layout_marginEnd="103dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="67dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/btnReport"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/lbl_Report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepHelp" />
+
+    <Button
+        android:id="@+id/btnPrevious"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/lbl_Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnReport"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepHelp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/MyDracmaButton"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_Close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+</android.support.constraint.ConstraintLayout>

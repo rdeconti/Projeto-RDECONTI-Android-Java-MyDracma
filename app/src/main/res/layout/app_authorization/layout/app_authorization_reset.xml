@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_Authorization.appAuthorizationReset"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <TextView
+        android:id="@+id/MyDracmaName"
+        style="@style/MyDracmaName"
+        android:layout_marginBottom="8dp"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/MyDracmaGoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MyDracmaGoal"
+        style="@style/MyDracmaGoal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_goal"
+        app:layout_constraintBottom_toTopOf="@+id/imageAppLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyDracmaName" />
+
+    <ImageView
+        android:id="@+id/imageAppLogo"
+        style="@style/MyDracmaImageLogo"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/myDracmaActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyDracmaGoal" />
+
+    <TextView
+        android:id="@+id/myDracmaActivity"
+        style="@style/MyDracmaActivity"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAppLogo" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/MyDracmaEditText_MatchParent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:drawableEnd="@drawable/ic_email"
+        android:hint="@string/hnt_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myDracmaActivity" />
+
+    <Button
+        android:id="@+id/btnReset"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/lbl_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/progressbar_circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:progressDrawable="@drawable/progressbar_circle_circular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+        app:layout_constraintStart_toEndOf="@+id/btnReset"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/lbl_Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+</android.support.constraint.ConstraintLayout>

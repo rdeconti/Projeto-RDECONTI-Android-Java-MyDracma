@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_VirtualAssistant.appVirtualAssistantStep00Menu"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_VirtualAssistant"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <TextView
+        android:id="@+id/textViewStepHelp"
+        style="@style/MyDracmaTextHelp"
+        android:layout_height="61dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/txt_InitialSteps"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAppLogo" />
+
+    <ImageView
+        android:id="@+id/imageAppLogo"
+        style="@style/MyDracmaImageLogo"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/textViewStepHelp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnUser"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewNumber2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepHelp"
+        app:srcCompat="@drawable/ic_number_1" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/lbl_User"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewNumber4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNumber1" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnAsset"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNumber1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepHelp"
+        app:srcCompat="@drawable/ic_number_2" />
+
+    <Button
+        android:id="@+id/btnAsset"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="@string/lbl_Asset"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewNumber5"
+        app:layout_constraintEnd_toStartOf="@+id/btnAccount"
+        app:layout_constraintStart_toEndOf="@+id/btnUser"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNumber2" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepHelp"
+        app:srcCompat="@drawable/ic_number_3" />
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/lbl_Account"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewNumber6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNumber3" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="50dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnIncome"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewNumber5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUser"
+        app:srcCompat="@drawable/ic_number_4" />
+
+    <Button
+        android:id="@+id/btnIncome"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/lbl_Income"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="98dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnOutcome"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNumber4"
+        app:layout_constraintTop_toBottomOf="@+id/btnAsset"
+        app:srcCompat="@drawable/ic_number_5" />
+
+    <Button
+        android:id="@+id/btnOutcome"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="@string/lbl_Outcome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoal"
+        app:layout_constraintStart_toEndOf="@+id/btnIncome" />
+
+    <ImageView
+        android:id="@+id/imageViewNumber6"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="98dp"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        app:layout_constraintBottom_toTopOf="@+id/btnGoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNumber5"
+        app:layout_constraintTop_toBottomOf="@+id/btnAccount"
+        app:srcCompat="@drawable/ic_number_6" />
+
+    <Button
+        android:id="@+id/btnGoal"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/lbl_Goal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

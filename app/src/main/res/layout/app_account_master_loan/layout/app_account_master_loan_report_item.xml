@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutItem"
+    android:layout_width="match_parent"
+    tools:context=".app_AccountMaster.appAccountMasterReportItem"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/labelTransaction"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Transaction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemTransaction"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelTransaction"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/labelCategory"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTransaction" />
+
+    <TextView
+        android:id="@+id/itemCategory"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelCategory"
+        app:layout_constraintTop_toBottomOf="@+id/itemTransaction" />
+
+    <TextView
+        android:id="@+id/labelSubCategory"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_SubCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelCategory" />
+
+    <TextView
+        android:id="@+id/itemSubCategory"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelSubCategory"
+        app:layout_constraintTop_toBottomOf="@+id/itemCategory" />
+
+    <TextView
+        android:id="@+id/itemName"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelName"
+        app:layout_constraintTop_toBottomOf="@+id/itemSubCategory" />
+
+    <TextView
+        android:id="@+id/labelName"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelSubCategory" />
+
+    <TextView
+        android:id="@+id/itemInitialValue"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelInitialValue"
+        app:layout_constraintTop_toBottomOf="@+id/itemName" />
+
+    <TextView
+        android:id="@+id/labelInitialValue"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_InitialValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelName" />
+
+    <TextView
+        android:id="@+id/labelKey"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Key"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelInitialValue" />
+
+    <TextView
+        android:id="@+id/itemKey"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/labelKey"
+        app:layout_constraintTop_toBottomOf="@+id/itemInitialValue" />
+
+    <ImageButton
+        android:id="@+id/btnChange"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        style="@style/MyDracmaRecyclerItemIconEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemTransaction"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".app_Configuration.appConfigurationNotification">
+
+    <item
+        android:id="@+id/actionHome"
+        android:icon="@drawable/ic_home"
+        android:orderInCategory="60"
+        android:title="@string/lbl_Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionNotification"
+        android:icon="@drawable/ic_notification"
+        android:orderInCategory="70"
+        android:title="@string/lbl_notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionLogout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="80"
+        android:title="@string/lbl_logOut"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionHelp"
+        android:icon="@drawable/ic_help"
+        android:orderInCategory="80"
+        android:title="@string/lbl_Help"
+        app:showAsAction="always" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/actionUserSignOut"
+            android:title="@string/lbl_signOut" />
+        <item
+            android:id="@+id/actionUserChangeEmail"
+            android:title="@string/lbl_changeEmail" />
+        <item
+            android:id="@+id/actionUserChangePassword"
+            android:title="@string/lbl_changePassword" />
+        <item
+            android:id="@+id/actionUserReset"
+            android:title="@string/lbl_reset" />
+        <item
+            android:id="@+id/actionUserMaintain"
+            android:title="@string/lbl_userMaintenance" />
+        <item
+            android:id="@+id/actionUserNotification"
+            android:title="@string/lbl_notification" />
+        <item
+            android:id="@+id/actionUserLimit"
+            android:title="@string/lbl_limit" />
+
+    </group>
+</menu>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_AccountMaster.appAccountMasterScreenCreate"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_AccountMaster"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <TextView
+        android:id="@+id/textViewTransaction"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Transaction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Spinner
+        android:id="@+id/spnTransaction"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTransaction" />
+
+    <Spinner
+        android:id="@+id/spnCategory"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnTransaction" />
+
+    <TextView
+        android:id="@+id/textViewSubCategory"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_SubCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCategory" />
+
+    <Spinner
+        android:id="@+id/spnSubCategory"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnCategory" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubCategory" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnSubCategory" />
+
+    <TextView
+        android:id="@+id/textViewStartDate"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_StartDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <EditText
+        android:id="@+id/editTextStartDate"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_StartDate"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <TextView
+        android:id="@+id/textViewFinishDate"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_FinishDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStartDate" />
+
+    <EditText
+        android:id="@+id/editTextFinishDate"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_FinishDate"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStartDate" />
+
+    <TextView
+        android:id="@+id/textViewExpireDate"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_ExpireDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFinishDate" />
+
+    <EditText
+        android:id="@+id/editTextExpireDate"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_ExpireDate"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFinishDate" />
+
+    <TextView
+        android:id="@+id/textViewInitialValue"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_InitialValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewExpireDate" />
+
+    <EditText
+        android:id="@+id/editTextInitialValue"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_InitialValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextExpireDate" />
+
+    <TextView
+        android:id="@+id/textViewLimitValue"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_LimitValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInitialValue" />
+
+    <EditText
+        android:id="@+id/editTextLimitValue"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_LimitValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInitialValue" />
+
+    <TextView
+        android:id="@+id/textViewTaxes"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Taxes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLimitValue" />
+
+    <EditText
+        android:id="@+id/editTextTaxes"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_Taxes"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLimitValue" />
+
+    <TextView
+        android:id="@+id/textViewInterest"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Interest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTaxes" />
+
+    <EditText
+        android:id="@+id/editTextInterest"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="4dp"
+        android:hint="@string/hnt_Interest"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTaxes" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/progressbar_circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:progressDrawable="@drawable/progressbar_circle_circular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInterest"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbl_Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/progressbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInterest"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

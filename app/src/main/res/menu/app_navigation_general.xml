@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionHome"
+        android:icon="@drawable/ic_home"
+        android:orderInCategory="60"
+        android:title="@string/lbl_Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionNotification"
+        android:icon="@drawable/ic_notification"
+        android:orderInCategory="70"
+        android:title="@string/lbl_notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionLogout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="80"
+        android:title="@string/lbl_logOut"
+        app:showAsAction="always" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/actionAccountCategoryReport"
+            android:orderInCategory="10"
+            android:title="@string/lbl_AccountChart" />
+        <item
+            android:id="@+id/actionAccountMasterReport"
+            android:orderInCategory="20"
+            android:title="@string/lbl_Account" />
+        <item
+            android:id="@+id/actionAccountTransactionReport"
+            android:orderInCategory="30"
+            android:title="@string/lbl_Transaction" />
+        <item
+            android:id="@+id/actionAccountTransferReport"
+            android:orderInCategory="35"
+            android:title="@string/lbl_Transfer" />
+        <item
+            android:id="@+id/actionBudgetReport"
+            android:orderInCategory="40"
+            android:title="@string/lbl_Budget" />
+        <item
+            android:id="@+id/actionGoalReport"
+            android:orderInCategory="50"
+            android:title="@string/lbl_Goal" />
+        <item
+            android:id="@+id/actionUser"
+            android:orderInCategory="60"
+            android:title="@string/lbl_User" />
+        <item
+            android:id="@+id/actionReport"
+            android:orderInCategory="70"
+            android:title="@string/lbl_Report" />
+        <item
+            android:id="@+id/tool"
+            android:orderInCategory="80"
+            android:title="@string/lbl_Tool" />
+        <item
+            android:id="@+id/virtualAssistant"
+            android:orderInCategory="90"
+            android:title="@string/lbl_VirtualAssistant" />
+    </group>
+</menu>

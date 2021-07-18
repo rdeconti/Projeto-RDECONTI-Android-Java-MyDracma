@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prosperday.mydracma">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_mydracma_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyDracmaTheme.NoActionBar">
+        <activity android:name=".app_Authorization.appAuthorizationLogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app_AccountMasterChart.appAccountMasterChartScreenCreate" />
+        <activity android:name=".app_AccountMasterChart.appAccountMasterChartScreenUpdateDelete" />
+        <activity android:name=".app_AccountMasterChart.appAccountMasterChartReport" />
+        <activity android:name=".app_AccountMaster.appAccountMasterScreenCreate" />
+        <activity android:name=".app_AccountMaster.appAccountMasterScreenUpdateDelete" />
+        <activity android:name=".app_AccountMaster.appAccountMasterReport" />
+        <activity android:name=".app_AccountTransaction.appAccountTransactionScreenCreate" />
+        <activity android:name=".app_AccountTransaction.appAccountTransactionScreenUpdateDelete" />
+        <activity android:name=".app_AccountTransaction.appAccountTransactionReport" />
+        <activity android:name=".app_AccountTransfer.appAccountTransferScreenCreate" />
+        <activity android:name=".app_AccountTransfer.appAccountTransferScreenUpdateDelete" />
+        <activity android:name=".app_AccountTransfer.appAccountTransferReport" />
+        <activity android:name=".app_Authorization.appAuthorizationChangeEmail" />
+        <activity android:name=".app_Authorization.appAuthorizationChangePassword" />
+        <activity android:name=".app_Authorization.appAuthorizationLogOut" />
+        <activity android:name=".app_Authorization.appAuthorizationReset" />
+        <activity android:name=".app_Authorization.appAuthorizationSignIn" />
+        <activity android:name=".app_Authorization.appAuthorizationSignOut" />
+        <activity android:name=".app_AccountMasterBudget.appAccountMasterBudgetScreenCreate" />
+        <activity android:name=".app_AccountMasterBudget.appAccountMasterBudgetScreenUpdateDelete" />
+        <activity android:name=".app_AccountMasterBudget.appAccountMasterBudgetReport" />
+        <activity android:name=".app_AccountMasterGoal.appAccountMasterGoalScreenCreate" />
+        <activity android:name=".app_AccountMasterGoal.appAccountMasterGoalScreenUpdateDelete" />
+        <activity android:name=".app_AccountMasterGoal.appAccountMasterGoalReport" />
+        <activity android:name=".app_FinancialHealth.appFinancialHealthStep00Menu" />
+        <activity android:name=".app_Report.appReportAverageReturn" />
+        <activity android:name=".app_Report.appReportBalanceSheet" />
+        <activity android:name=".app_Report.appReportCashFlow" />
+        <activity android:name=".app_Report.appReportInvestmentHistory" />
+        <activity android:name=".app_User.appUserScreenCreate" />
+        <activity android:name=".app_User.appUserScreenUpdateDelete" />
+        <activity android:name=".app_User.appUserReport" />
+        <activity android:name=".app_Report.appReportNotification" />
+        <activity android:name=".app_Report.appReportHelp" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep00Menu" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep01User" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep02Asset" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep03Account" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep04Income" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep05Outcome" />
+        <activity android:name=".app_VirtualAssistant.appVirtualAssistantStep06Goal" />
+        <activity android:name=".app_Tool.appToolStep00Menu" />
+        <activity android:name=".app_Tool.appToolStep01Reset" />
+        <activity android:name=".app_Tool.appToolStep02Backup" />
+        <activity android:name=".app_Tool.appToolStep03Restore" />
+        <activity android:name=".app_Tool.appToolStep04Download" />
+        <activity android:name=".app_Tool.appToolStep05Upload" />
+        <activity android:name=".app_Tool.appToolStep06Template" />
+        <activity android:name=".app_Configuration.appConfigurationNotification" />
+        <activity android:name=".app_Configuration.appConfigurationLimit" />
+        <activity android:name=".app_AccountMasterOutcome.appAccountMasterOutcomeScreenCreate" />
+        <activity android:name=".app_Navigation.app_Navigation"
+            android:label="@string/title_activity_app__navigation"
+            android:theme="@style/MyDracmaTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

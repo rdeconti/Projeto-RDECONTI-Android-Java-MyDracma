@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_AccountMasterGoal.appAccountMasterGoalScreenUpdateDelete"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_Goal"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <Spinner
+        android:id="@+id/spnType"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/GoalType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <TextView
+        android:id="@+id/textViewDatePlanned"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_DatePlanned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewType" />
+
+    <EditText
+        android:id="@+id/editTextDatePlanned"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_PlannedDate"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnType" />
+
+    <TextView
+        android:id="@+id/textViewDateRealized"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_DateRealized"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDatePlanned" />
+
+    <EditText
+        android:id="@+id/editTextDateRealized"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_RealizedDate"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDatePlanned" />
+
+    <TextView
+        android:id="@+id/textViewValuePlanned"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_ValuePlanned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateRealized" />
+
+    <EditText
+        android:id="@+id/editTextValuePlanned"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_PlannedValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDateRealized" />
+
+    <TextView
+        android:id="@+id/textViewValueRealized"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_ValueRealized"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValuePlanned" />
+
+    <EditText
+        android:id="@+id/editTextValueRealized"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_RealizedValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextValuePlanned" />
+
+    <TextView
+        android:id="@+id/textViewPriority"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Priority"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValueRealized" />
+
+    <Spinner
+        android:id="@+id/spnPriority"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/GoalPriority"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextValueRealized" />
+
+    <TextView
+        android:id="@+id/textViewSavingRate"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_SavingRate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPriority" />
+
+    <EditText
+        android:id="@+id/editTextSavingRate"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_SavingRate"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnPriority" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/progressbar_circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:progressDrawable="@drawable/progressbar_circle_circular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/lbl_Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

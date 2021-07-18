@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_AccountMasterBudget.appAccountMasterBudgetScreenUpdateDelete"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_Budget"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <TextView
+        android:id="@+id/textViewYear"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Year"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_Year"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewMonth"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Month"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYear" />
+
+    <EditText
+        android:id="@+id/editTextMonth"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_Month"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextYear" />
+
+    <TextView
+        android:id="@+id/textViewTransaction"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Transaction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMonth" />
+
+    <Spinner
+        android:id="@+id/spnTransaction"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMonth" />
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTransaction" />
+
+    <Spinner
+        android:id="@+id/spnCategory"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnTransaction" />
+
+    <TextView
+        android:id="@+id/textViewSubCategory"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_SubCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCategory" />
+
+    <Spinner
+        android:id="@+id/spnSubCategory"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnCategory" />
+
+    <TextView
+        android:id="@+id/textViewPlannedValue"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_PlannedValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubCategory" />
+
+    <EditText
+        android:id="@+id/editTextPlannedValue"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_PlannedValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnSubCategory" />
+
+    <TextView
+        android:id="@+id/textViewRealizedValue"
+        style="@style/MyDracmaTextView_95"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_RealizedValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlannedValue" />
+
+    <EditText
+        android:id="@+id/editTextLimitValue"
+        style="@style/MyDracmaEditText_250"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hnt_RealizedValue"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPlannedValue" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="151dp"
+        android:text="@string/lbl_Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRealizedValue" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="151dp"
+        android:background="@drawable/progressbar_circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:progressDrawable="@drawable/progressbar_circle_circular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+        app:layout_constraintStart_toEndOf="@+id/btnUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLimitValue" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="151dp"
+        android:text="@string/lbl_Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLimitValue" />
+
+</android.support.constraint.ConstraintLayout>

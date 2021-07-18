@@ -1,0 +1,299 @@
+<resources>
+
+    <style name="MyDracmaConstraintLayoutReport">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="MyDracmaConstraintLayoutItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/MyDracmaColorBlueLess</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="MyDracmaToolBar" parent="@android:style/Widget.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDracmaRecyclerView">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:scrollbarSize">50dp</item>
+        <item name="android:scrollbars">horizontal</item>
+    </style>
+
+
+    <!-- TODO REVIEW ALL STYLES -->
+
+
+    <style name="MyDracmaRecyclerItemLabel_110">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@color/MyDracmaColorBlueLess</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaRecyclerItemValue_200">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@color/MyDracmaColorBlueLess</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaRecyclerItemIconEdit">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@android:drawable/ic_menu_info_details</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:contentDescription">@string/lbl_MyDracmaImage</item>
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaImageLogo">
+        <item name="android:layout_width">162dp</item>
+        <item name="android:layout_height">162dp</item>
+        <item name="android:background">@drawable/img_dracma_logo</item>
+    </style>
+
+    <style name="MyDracmaName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@color/MyDracmaColorBackground</item>
+        <item name="android:backgroundTint">@color/MyDracmaColorBackground</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="MyDracmaGoal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="MyDracmaActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaEditText_250">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaEditText_50">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaEditText_MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaTextView_100">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaTextView_95">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">95dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaTextHelp">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/MyDracmaColorWhite</item>
+        <item name="android:textColorHint">@color/MyDracmaColorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <style name="MyDracmaSpinner_230">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@android:drawable/arrow_down_float</item>
+        <item name="android:backgroundTint">@color/MyDracmaColorBlueLess</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaSpinner_250">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@android:drawable/arrow_down_float</item>
+        <item name="android:backgroundTint">@color/MyDracmaColorGray</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaSpinner_50">
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@android:drawable/arrow_down_float</item>
+        <item name="android:backgroundTint">@color/MyDracmaColorGray</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/MyDracmaColorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="MyDracmaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="MyDracmaTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDracmaTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyDracmaTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

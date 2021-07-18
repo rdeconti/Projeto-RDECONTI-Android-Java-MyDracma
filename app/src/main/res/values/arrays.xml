@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="YesNo">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_Yes</item>
+        <item>@string/lbl_No</item>
+    </string-array>
+
+    <string-array name="Period">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_None</item>
+        <item>@string/lbl_Day</item>
+        <item>@string/lbl_Week</item>
+        <item>@string/lbl_Month</item>
+        <item>@string/lbl_Year</item>
+        <item>@string/lbl_Forever</item>
+    </string-array>
+
+    <string-array name="Language">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_English</item>
+        <item>@string/lbl_Portuguese</item>
+        <item>@string/lbl_Spanish</item>
+    </string-array>
+
+    <string-array name="GoalType">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_EmergencyFund</item>
+        <item>@string/lbl_Retirement</item>
+        <item>@string/lbl_Transportation</item>
+        <item>@string/lbl_Habitation</item>
+        <item>@string/lbl_Training</item>
+        <item>@string/lbl_Family</item>
+        <item>@string/lbl_Health</item>
+        <item>@string/lbl_Charity</item>
+        <item>@string/lbl_Party</item>
+        <item>@string/lbl_MyGoal</item>
+    </string-array>
+
+    <string-array name="GoalPriority">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_Low</item>
+        <item>@string/lbl_Medium</item>
+        <item>@string/lbl_High</item>
+    </string-array>
+
+    <string-array name="TimeFormat">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="DateFormat">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>YYYY-MM-DD</item>
+        <item>DD-MM-YYYY</item>
+        <item>MM-DD-YYYY</item>
+    </string-array>
+
+    <string-array name="DecimalFormat">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>1.000,00</item>
+        <item>1,000.00</item>
+    </string-array>
+
+    <string-array name="SessionTime">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_05Minutes</item>
+        <item>@string/lbl_10Minutes</item>
+        <item>@string/lbl_15Minutes</item>
+        <item>@string/lbl_20Minutes</item>
+        <item>@string/lbl_25Minutes</item>
+        <item>@string/lbl_30Minutes</item>
+        <item>@string/lbl_Forever</item>
+    </string-array>
+
+    <string-array name="Currency">
+        <item>@string/lbl_ChooseOneOption</item>
+        <item>@string/lbl_BRL</item>
+        <item>@string/lbl_USD</item>
+        <item>@string/lbl_EUR</item>
+        <item>@string/lbl_JPY</item>
+        <item>@string/lbl_GBP</item>
+        <item>@string/lbl_CAD</item>
+        <item>@string/lbl_CHF</item>
+        <item>@string/lbl_INR</item>
+        <item>@string/lbl_MXN</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutReport"
+    tools:context="com.prosperday.mydracma.app_Configuration.appConfigurationNotification"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyDracmaToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="@string/lbl_notification"
+        app:subtitleTextColor="@color/MyDracmaColorTextWhite"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/MyDracmaColorTextWhite" />
+
+    <TextView
+        android:id="@+id/textViewEmergency"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Emergency"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Spinner
+        android:id="@+id/spnEmergency"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewRetirement"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Retirement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmergency" />
+
+    <Spinner
+        android:id="@+id/spnRetirement"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnEmergency" />
+
+    <TextView
+        android:id="@+id/textViewIncome"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Income"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRetirement" />
+
+    <Spinner
+        android:id="@+id/spnIncome"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnRetirement" />
+
+    <TextView
+        android:id="@+id/textViewStepName"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Outcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIncome" />
+
+    <Spinner
+        android:id="@+id/spnOutcome"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnIncome" />
+
+    <TextView
+        android:id="@+id/textViewGoal"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Goal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepName" />
+
+    <Spinner
+        android:id="@+id/spnGoal"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnOutcome" />
+
+    <TextView
+        android:id="@+id/textViewBudget"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_Budget"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoal" />
+
+    <Spinner
+        android:id="@+id/spnBudget"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnGoal" />
+
+    <TextView
+        android:id="@+id/textViewBillToPay"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_BillToPay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBudget" />
+
+    <Spinner
+        android:id="@+id/spnBillToPay"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnBudget" />
+
+    <TextView
+        android:id="@+id/textViewBillNotPaid"
+        style="@style/MyDracmaTextView_100"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_BillNotPaid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBillToPay" />
+
+    <Spinner
+        android:id="@+id/spnBillNotPaid"
+        style="@style/MyDracmaSpinner_250"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/YesNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnBillToPay" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/MyDracmaButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="111dp"
+        android:text="@string/lbl_Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBillNotPaid" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/progressbar_circle_shape"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:progressDrawable="@drawable/progressbar_circle_circular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+        app:layout_constraintStart_toEndOf="@+id/btnUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/spnBillNotPaid" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/MyDracmaButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="103dp"
+        android:text="@string/lbl_Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnBillNotPaid" />
+
+</android.support.constraint.ConstraintLayout>

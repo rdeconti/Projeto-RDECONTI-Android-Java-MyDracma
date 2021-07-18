@@ -1,0 +1,159 @@
+#01#Income#02#Fixed#03#Active#04#Income#05#Wage#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Salário#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Salario#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#Rental income#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Aluguel recebido#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Ingreso de alquiler#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#Pension (social security)#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Pensão (seguro social)#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Pensión (seguro social)#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#Pension (private insurance)#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Pensão (seguro privado)#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Pensión (seguro privado)#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#13th salary#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#13º salário#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#13º salario#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#Vacation#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Férias#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Vacaciones#16#
+#01#Income#02#Fixed#03#Active#04#Income#05#Unemployment insurance#06#Entrada#07#Fixo#08#Ativo#09#Entrada#10#Seguro Desemprego#11#Ingreso#12#Fijo#13#activo#14#Ingreso#15#Seguro de desempleo#16#
+#01#Income#02#Variable#03#Active#04#Income#05#Overtime#06#Entrada#07#Variável#08#Ativo#09#Entrada#10#Horas extras#11#Ingreso#12#Variable#13#activo#14#Ingreso#15#Horas extras#16#
+#01#Income#02#Variable#03#Active#04#Income#05#Interest income#06#Entrada#07#Variável#08#Ativo#09#Entrada#10#Rendimentos de juros#11#Ingreso#12#Variable#13#activo#14#Ingreso#15#Ingreso por intereses#16#
+#01#Income#02#Variable#03#Active#04#Income#05#Dividends#06#Entrada#07#Variável#08#Ativo#09#Entrada#10#Dividendos#11#Ingreso#12#Variable#13#activo#14#Ingreso#15#Dividendos#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Allowance#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Abono#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Abono#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Tip#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Gorjeta#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Propina#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Gifts received#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Presentes recebidos#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Regalos recibidos#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Reimbursements#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Reembolsos#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Reembolsos#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Financial aid#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Ajuda financeira#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Ayuda financiera#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Donation#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Doação#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Donación#16#
+#01#Income#02#Extra#03#Active#04#Income#05#Income (others)#06#Entrada#07#Extra#08#Ativo#09#Entrada#10#Renda (outros)#11#Ingreso#12#Extra#13#activo#14#Ingreso#15#Ingreso (otros)#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Cash#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Dinheiro#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Dinero#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Current account#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Conta corrente#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Cuenta corriente#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Savings account#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Conta poupança#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Cuenta de ahorro#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Credit card#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Cartão de crédito#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Tarjeta de crédito#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Debit card#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Cartão de débito#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Tarjeta de débito#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#CBD#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#CDB#11#Inversión#12#Fijo#13#activo#14#Inversión#15#CDB#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#CDI#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#CDI#11#Inversión#12#Fijo#13#activo#14#Inversión#15#CDI#16#
+#01#Investment#02#Variable#03#Active#04#Investment#05#Direct treasury#06#Investimento#07#Variável#08#Ativo#09#Investimento#10#Tesouro direto#11#Inversión#12#Variable#13#activo#14#Inversión#15#Tesoro directo#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#Fixed income funds#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Fundos de renda fixa#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Fondos de renta fija#16#
+#01#Investment#02#Fixed#03#Active#04#Investment#05#DI funds#06#Investimento#07#Fixo#08#Ativo#09#Investimento#10#Fundos DI#11#Inversión#12#Fijo#13#activo#14#Inversión#15#Fondos DI#16#
+#01#Investment#02#Variable#03#Active#04#Investment#05#Multimarket fund#06#Investimento#07#Variável#08#Ativo#09#Investimento#10#Fundo multimercado#11#Inversión#12#Variable#13#activo#14#Inversión#15#Fondo multimercado#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#clothes#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#roupas#11#Bienes#12#Fijo#13#activo#14#Bienes#15#ropa#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#mobile#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#celular#11#Bienes#12#Fijo#13#activo#14#Bienes#15#móvil#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#immobile#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#imovel#11#Bienes#12#Fijo#13#activo#14#Bienes#15#vacaciones#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#computer#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#computador#11#Bienes#12#Fijo#13#activo#14#Bienes#15#equipo#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#TV#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#televisão#11#Bienes#12#Fijo#13#activo#14#Bienes#15#televisión#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#sound#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#som#11#Bienes#12#Fijo#13#activo#14#Bienes#15#sonido#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#refrigerator#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#geladeira#11#Bienes#12#Fijo#13#activo#14#Bienes#15#refrigerador#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#car#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#carro#11#Bienes#12#Fijo#13#activo#14#Bienes#15#coche#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#jewels#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#joias#11#Bienes#12#Fijo#13#activo#14#Bienes#15#joyas#16#
+#01#Asset#02#Fixed#03#Active#04#Asset#05#Freezer#06#Ativos#07#Fixo#08#Ativo#09#Ativos#10#freezer#11#Bienes#12#Fijo#13#activo#14#Bienes#15#Freezer#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Financial#05#IRRF#06#Saída#07#Obrigação#08#Passivo#09#Financeiro#10#IRRF#11#Salir#12#Obligación#13#pasivo#14#Financiero#15#IRRF#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Financial#05#IOF#06#Saída#07#Obrigação#08#Passivo#09#Financeiro#10#IOF#11#Salir#12#Obligación#13#pasivo#14#Financiero#15#IOF#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Financial#05#Bank charge#06#Saída#07#Obrigação#08#Passivo#09#Financeiro#10#Taxas bancárias#11#Salir#12#Obligación#13#pasivo#14#Financiero#15#Tasas bancarias#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Financial#05#Obligations (others)#06#Saída#07#Obrigação#08#Passivo#09#Financeiro#10#Obrigações (outros)#11#Salir#12#Obligación#13#pasivo#14#Financiero#15#Obligaciones (otros)#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Health Insurance#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Plano de saúde#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Seguro de salud#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Disability Insurance#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Seguro de invalidez#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Seguro de invalidez#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Life Insurance#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Seguro de vida#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Seguro de vida#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Health plan#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Plano de saúde#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Plan de salud#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Health Club Dues#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Taxas do clube de saúde#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Cuotas del club de salud#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Health#05#Babysitting / Child Care#06#Saída#07#Fixo#08#Passivo#09#Saúde#10#Babá / Cuidados infantis#11#Salir#12#Fijo#13#pasivo#14#Salud#15#Niñera / cuidado de niños#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Health#05#Medicine / Drugs#06#Saída#07#Variável#08#Passivo#09#Saúde#10#Medicina / Drogas#11#Salir#12#Variable#13#pasivo#14#Salud#15#Medicina / Drogas#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Health#05#Doctor#06#Saída#07#Extra#08#Passivo#09#Saúde#10#Médico#11#Salir#12#Extra#13#pasivo#14#Salud#15#Médico#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Health#05#Dentist#06#Saída#07#Extra#08#Passivo#09#Saúde#10#Dentista#11#Salir#12#Extra#13#pasivo#14#Salud#15#Dentista#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Health#05#Hospital#06#Saída#07#Extra#08#Passivo#09#Saúde#10#Hospital#11#Salir#12#Extra#13#pasivo#14#Salud#15#Hospital#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Health#05#Exams#06#Saída#07#Extra#08#Passivo#09#Saúde#10#Exames#11#Salir#12#Extra#13#pasivo#14#Salud#15#Exámenes#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Health#05#Health (others)#06#Saída#07#Extra#08#Passivo#09#Saúde#10#Saúde (outros)#11#Salir#12#Extra#13#pasivo#14#Salud#15#Salud (otros)#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Pet#05#Feeding#06#Saída#07#Fixo#08#Passivo#09#Animal#10#Alimentação#11#Salir#12#Fijo#13#pasivo#14#Mascota#15#Alimentación#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Pet#05#Medicine / Drugs#06#Saída#07#Variável#08#Passivo#09#Animal#10#Medicina / Drogas#11#Salir#12#Variable#13#pasivo#14#Mascota#15#Medicina / Drogas#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Pet#05#Veterinarian#06#Saída#07#Extra#08#Passivo#09#Animal#10#Veterinário#11#Salir#12#Extra#13#pasivo#14#Mascota#15#Veterinario#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Pet#05#Pet care#06#Saída#07#Extra#08#Passivo#09#Animal#10#Clínica de animais#11#Salir#12#Extra#13#pasivo#14#Mascota#15#Clínica de mascotas#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Pet#05#Pet (others)#06#Saída#07#Extra#08#Passivo#09#Animal#10#Animais (outros)#11#Salir#12#Extra#13#pasivo#14#Mascota#15#Mascotas (otras)#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Feeding#05#Supermarket#06#Saída#07#Variável#08#Passivo#09#Alimentando#10#Supermercado#11#Salir#12#Variable#13#pasivo#14#Alimentación#15#Supermercado#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Feeding#05#Market#06#Saída#07#Variável#08#Passivo#09#Alimentando#10#Feira#11#Salir#12#Variable#13#pasivo#14#Alimentación#15#Mercado#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Feeding#05#Backery#06#Saída#07#Variável#08#Passivo#09#Alimentando#10#Padaria#11#Salir#12#Variable#13#pasivo#14#Alimentación#15#Panadería#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Feeding#05#Eating Out#06#Saída#07#Extra#08#Passivo#09#Alimentando#10#Comer fora#11#Salir#12#Extra#13#pasivo#14#Alimentación#15#Comer fuera#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Feeding#05#Feeding (others)#06#Saída#07#Extra#08#Passivo#09#Alimentando#10#Alimentação (outros)#11#Salir#12#Extra#13#pasivo#14#Alimentación#15#Alimentación (otros)#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Transportation#05#Mobility app#06#Saída#07#Variável#08#Passivo#09#Transporte#10#Aplicativo de mobilidade#11#Salir#12#Variable#13#pasivo#14#Transporte#15#Aplicación de movilidad#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Transportation#05#Bus#06#Saída#07#Variável#08#Passivo#09#Transporte#10#Ônibus#11#Salir#12#Variable#13#pasivo#14#Transporte#15#Autobús#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Transportation#05#Taxi#06#Saída#07#Variável#08#Passivo#09#Transporte#10#Táxi#11#Salir#12#Variable#13#pasivo#14#Transporte#15#Taxi#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Transportation#05#Train#06#Saída#07#Variável#08#Passivo#09#Transporte#10#Trem#11#Salir#12#Variable#13#pasivo#14#Transporte#15#Tren#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Transportation#05#Subway#06#Saída#07#Variável#08#Passivo#09#Transporte#10#Metrô#11#Salir#12#Variable#13#pasivo#14#Transporte#15#Metro#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Transportation#05#Transportation (others)#06#Saída#07#Extra#08#Passivo#09#Transporte#10#Transporte (outros)#11#Salir#12#Extra#13#pasivo#14#Transporte#15#Transporte (outros)#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Mobility#05#Auto Insurance#06#Saída#07#Fixo#08#Passivo#09#Automóvel#10#Seguro automóvel#11#Salir#12#Fijo#13#pasivo#14#Automóvil#15#Seguro de auto#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Mobility#05#Installment#06#Saída#07#Fixo#08#Passivo#09#Automóvel#10#Prestação#11#Salir#12#Fijo#13#pasivo#14#Automóvil#15#Entrega#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Mobility#05#Car taxes#06#Saída#07#Obrigação#08#Passivo#09#Automóvel#10#Imposto sobre automóveis#11#Salir#12#Obligación#13#pasivo#14#Automóvil#15#Impuesto sobre el automóvil#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Mobility#05#Consortium#06#Saída#07#Fixo#08#Passivo#09#Automóvel#10#Consórcio#11#Salir#12#Fijo#13#pasivo#14#Automóvil#15#Consorcio#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Mobility#05#Parking#06#Saída#07#Variável#08#Passivo#09#Automóvel#10#Estacionamento#11#Salir#12#Variable#13#pasivo#14#Automóvil#15#Estacionamiento#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Mobility#05#Fuel#06#Saída#07#Variável#08#Passivo#09#Automóvel#10#Combustível#11#Salir#12#Variable#13#pasivo#14#Automóvil#15#Combustible#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Mobility#05#Registration / License#06#Saída#07#Variável#08#Passivo#09#Automóvel#10#Registro / Licença#11#Salir#12#Variable#13#pasivo#14#Automóvil#15#Registro / Licencia#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Mobility#05#Repairs#06#Saída#07#Extra#08#Passivo#09#Automóvel#10#Reparos#11#Salir#12#Extra#13#pasivo#14#Automóvil#15#Reparaciones#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Mobility#05#Tires#06#Saída#07#Extra#08#Passivo#09#Automóvel#10#Pneus#11#Salir#12#Extra#13#pasivo#14#Automóvil#15#Neumáticos#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Mobility#05#Fines#06#Saída#07#Extra#08#Passivo#09#Automóvel#10#Multas#11#Salir#12#Extra#13#pasivo#14#Automóvil#15#Multas#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Mobility#05#Car (others)#06#Saída#07#Extra#08#Passivo#09#Automóvel#10#Carro (outros)#11#Salir#12#Extra#13#pasivo#14#Automóvil#15#Coche (outros)#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Mortgage#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Hipoteca#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Hipoteca#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Rent#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Aluguel#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Alquiler#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Rental Insurance#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Seguro de aluguel#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Seguro de alquiler#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Housing#05#real Estate Taxes#06#Saída#07#Obrigação#08#Passivo#09#Habitação#10#Imposto sobre imóveis#11#Salir#12#Obligación#13#pasivo#14#Alojamiento#15#Impuestos de bienes inmuebles#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Condominium#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Condomínio#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Condominio#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Installment#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Prestação#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Entrega#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Insurance#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Seguro#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Seguro#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Daily worker#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Diarista#11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Trabajador diario#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Housing#05#Monthly worker#06#Saída#07#Fixo#08#Passivo#09#Habitação#10#Mensalista #11#Salir#12#Fijo#13#pasivo#14#Alojamiento#15#Trabajador mensual#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Electricity#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Eletricidade#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Electricidad#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Water / Sewer#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Água / Esgoto#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Agua / Alcantarilla#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Trash#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Lixo#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Basura#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Gas#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Gás#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Gas#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Phone#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Telefone#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Teléfono#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Cell phone#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Telefone celular#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Teléfono celular#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Garden#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Jardim#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Jardín#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Pool#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Piscina#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Piscina#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Cable / Satellite#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Cabo / Satélite#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Cable / Satellite#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Housing#05#Internet#06#Saída#07#Variável#08#Passivo#09#Habitação#10#Internet#11#Salir#12#Variable#13#pasivo#14#Alojamiento#15#Internet#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Cleaning Services#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Serviço de Limpeza#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Servicios de limpieza#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Laundry#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Lavandaria#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Servicio de lavandería#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Maintenance#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Manutenção#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Mantenimiento#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Furnishings#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Mobiliário#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Mobiliario#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Appliances#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Eletrodomésticos#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Electrodomésticos#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Maintenance / Supplies#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Manutenção / Suprimentos#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Mantenimiento / Suministros#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Improvements#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Melhorias#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Mejoras#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Housing#05#Housing (others)#06#Saída#07#Extra#08#Passivo#09#Habitação#10#Habitação (outros)#11#Salir#12#Extra#13#pasivo#14#Alojamiento#15#Alojamiento (outros)#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Education#05#School#06#Saída#07#Fixo#08#Passivo#09#Educação#10#Colégio#11#Salir#12#Fijo#13#pasivo#14#Educación#15#Colegio#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Education#05#College#06#Saída#07#Fixo#08#Passivo#09#Educação#10#Faculdade#11#Salir#12#Fijo#13#pasivo#14#Educación#15#Escuela#16#
+#01#Outcome#02#Fixed#03#Liabilities#04#Education#05#Course#06#Saída#07#Fixo#08#Passivo#09#Educação#10#Curso#11#Salir#12#Fijo#13#pasivo#14#Educación#15#Curso#16#
+#01#Outcome#02#Obligation#03#Liabilities#04#Education#05#Student Loan#06#Saída#07#Obrigação#08#Passivo#09#Educação#10#Empréstimo estudantil#11#Salir#12#Obligación#13#pasivo#14#Educación#15#Préstamo estudiantil#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Education#05#School supplies#06#Saída#07#Variável#08#Passivo#09#Educação#10#Material escolar#11#Salir#12#Variable#13#pasivo#14#Educación#15#Útiles escolares#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Education#05#School uniform#06#Saída#07#Variável#08#Passivo#09#Educação#10#Uniforme escolar#11#Salir#12#Variable#13#pasivo#14#Educación#15#Uniforme escolar#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Education#05#School tuition#06#Saída#07#Variável#08#Passivo#09#Educação#10#Matrícula escolar#11#Salir#12#Variable#13#pasivo#14#Educación#15#Matricula de colegio#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Education#05#School lunch#06#Saída#07#Variável#08#Passivo#09#Educação#10#Almoço escolar#11#Salir#12#Variable#13#pasivo#14#Educación#15#Almuerzo escolar#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Education#05#Education (others)#06#Saída#07#Extra#08#Passivo#09#Educação#10#Educação (outros)#11#Salir#12#Extra#13#pasivo#14#Educación#15#Educación (otros)#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Vacation#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Férias#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Vacaciones#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Travel#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Viagens#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Viajes#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Cinema#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Cinema#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Cine#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Videos#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Vídeos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Vídeos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Music#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Música#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Música#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Games#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Jogos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Juegos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Rentals#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Aluguel#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Alquileres#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Movies#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Filmes#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Películas#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Theater#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Teatro#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Teatro#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Concerts#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Concertos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Conciertos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Plays#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Jogos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Juegos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Books#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Livros#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Libros#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Hobbies#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Hobbies#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Aficiones#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Film / Photos#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Filme / Fotos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Película / Fotos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Sports#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Esportes#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Deportes#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Outdoor recreation#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Recreação ao ar livre#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Recreación al aire libre#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Toys / Games#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Brinquedos / Jogos#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Juguetes / Juegos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Parties#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Festas#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Fiestas#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Barbecue#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Churrasco#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Barbacoa#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Entertainment#05#Entertainment (others)#06#Saída#07#Adicional#08#Passivo#09#Entretenimento#10#Entretenimento (outros)#11#Salir#12#Adicional#13#pasivo#14#Entretenimiento#15#Entretenimiento (otros)#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Personal care#05#Hair stylist#06#Saída#07#Variável#08#Passivo#09#Cuidado pessoal#10#Cabeleireiro#11#Salir#12#Variable#13#pasivo#14#Cuidado personal#15#Peluquería#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Personal care#05#Salon#06#Saída#07#Variável#08#Passivo#09#Cuidado pessoal#10#Salão#11#Salir#12#Variable#13#pasivo#14#Cuidado personal#15#Salon#16#
+#01#Outcome#02#Variable#03#Liabilities#04#Personal care#05#Barber#06#Saída#07#Variável#08#Passivo#09#Cuidado pessoal#10#Barbeiro#11#Salir#12#Variable#13#pasivo#14#Cuidado personal#15#Barbero#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Manicure#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Manicure#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Manicura#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Beautician#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Esteticista#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Esteticista#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Gym#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Academia#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Academia#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Make up#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Maquiagem#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Maquillaje#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Clothing#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Roupas#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Ropa#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Shoes#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Calçados#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Calzado#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Toolories#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Acessórios#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Accesorios#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Personal care#05#Personal Supplies#06#Saída#07#Adicional#08#Passivo#09#Cuidado pessoal#10#Suprimentos pessoais#11#Salir#12#Adicional#13#pasivo#14#Cuidado personal#15#Suministros personales#16#
+#01#Outcome#02#Extra#03#Liabilities#04#Personal care#05#Daily living (others)#06#Saída#07#Extra#08#Passivo#09#Cuidado pessoal#10#Vida diária (outros)#11#Salir#12#Extra#13#pasivo#14#Cuidado personal#15#Vida diaria (otros)#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Subscription#05#Newspaper#06#Saída#07#Adicional#08#Passivo#09#Assinaturas#10#Jornal#11#Salir#12#Adicional#13#pasivo#14#Suscripciones#15#Periódico#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Subscription#05#Magazines#06#Saída#07#Adicional#08#Passivo#09#Assinaturas#10#Revistas#11#Salir#12#Adicional#13#pasivo#14#Suscripciones#15#Revistas#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Subscription#05#Dues / Memberships#06#Saída#07#Adicional#08#Passivo#09#Assinaturas#10#Dones / Memberships#11#Salir#12#Adicional#13#pasivo#14#Suscripciones#15#Cuotas / Membresías#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Subscription#05#Subscription (others)#06#Saída#07#Adicional#08#Passivo#09#Assinaturas#10#Subscrições (outros)#11#Salir#12#Adicional#13#pasivo#14#Suscripciones#15#Suscripciones (otros)#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Tithing#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Dízimo#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Diezmar#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Charitable Donations#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Doações de caridade#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Donaciones de caridad#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Religious Donations#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Doações religiosas#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Donaciones religiosas#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Gifts#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Presentes#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Regalos#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Christmas#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Natal#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Navidad#16#
+#01#Outcome#02#Additional#03#Liabilities#04#Charity / Gifts#05#Charity (others)#06#Saída#07#Adicional#08#Passivo#09#Caridade / Presentes#10#Caridade (outros)#11#Salir#12#Adicional#13#pasivo#14#Caridad / Regalos#15#Caridad (otros)#16#

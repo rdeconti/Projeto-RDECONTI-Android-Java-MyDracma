@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/MyDracmaConstraintLayoutItem"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    tools:context=".app_AccountTransaction.appAccountTransactionReportItem"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/labelTransaction"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Transaction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemTransaction"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelTransaction"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/labelCategory"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTransaction" />
+
+    <TextView
+        android:id="@+id/itemCategory"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelCategory"
+        app:layout_constraintTop_toBottomOf="@+id/itemTransaction" />
+
+    <TextView
+        android:id="@+id/labelSubCategory"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_SubCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelCategory" />
+
+    <TextView
+        android:id="@+id/itemSubCategory"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelSubCategory"
+        app:layout_constraintTop_toBottomOf="@+id/itemCategory" />
+
+    <TextView
+        android:id="@+id/labelDatePlanned"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_DatePlanned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelSubCategory" />
+
+    <TextView
+        android:id="@+id/itemDatePlanned"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelDatePlanned"
+        app:layout_constraintTop_toBottomOf="@+id/itemSubCategory" />
+
+    <TextView
+        android:id="@+id/labelValuePlanned"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_ValuePlanned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelDatePlanned" />
+
+    <TextView
+        android:id="@+id/itemValuePlanned"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:layout_height="0dp"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelValuePlanned"
+        app:layout_constraintTop_toBottomOf="@+id/itemDatePlanned" />
+
+    <TextView
+        android:id="@+id/labelDateRealized"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:layout_height="0dp"
+        android:text="@string/lbl_DateRealized"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelValuePlanned" />
+
+    <TextView
+        android:id="@+id/itemDateRealized"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelDateRealized"
+        app:layout_constraintTop_toBottomOf="@+id/itemValuePlanned" />
+
+
+    <TextView
+        android:id="@+id/itemValueRealized"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        app:layout_constraintStart_toEndOf="@+id/labelDateRealized"
+        app:layout_constraintTop_toBottomOf="@+id/itemDateRealized" />
+
+    <TextView
+        android:id="@+id/labelValueRealized"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:layout_height="0dp"
+        android:text="@string/lbl_ValueRealized"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelDateRealized" />
+
+    <TextView
+        android:id="@+id/labelKey"
+        style="@style/MyDracmaRecyclerItemLabel_110"
+        android:text="@string/lbl_Key"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelValueRealized" />
+
+    <TextView
+        android:id="@+id/itemKey"
+        style="@style/MyDracmaRecyclerItemValue_200"
+        android:text="@string/lbl_ChooseOneOption"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/labelKey"
+        app:layout_constraintTop_toBottomOf="@+id/itemValueRealized" />
+
+    <ImageButton
+        android:id="@+id/btnChange"
+        android:contentDescription="@string/lbl_MyDracmaImage"
+        style="@style/MyDracmaRecyclerItemIconEdit"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemTransaction"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

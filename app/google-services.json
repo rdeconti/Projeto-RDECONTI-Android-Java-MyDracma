@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "764497180241",
+    "firebase_url": "https://mydracma.firebaseio.com",
+    "project_id": "mydracma",
+    "storage_bucket": "mydracma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764497180241:android:2edd9a0f17822a63",
+        "android_client_info": {
+          "package_name": "com.prosperday.mydracma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764497180241-48r4ti4ufd7fp6t6knvdstvv9uqsvqpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prosperday.mydracma",
+            "certificate_hash": "bd71d6bea995e384edc60ed77c6fed9787800153"
+          }
+        },
+        {
+          "client_id": "764497180241-5j64a42ip10vrm6hs8qog5vqv9d9ud79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prosperday.mydracma",
+            "certificate_hash": "93b492741def7ca4630046b63170c4c535f61852"
+          }
+        },
+        {
+          "client_id": "764497180241-o6k4jkbp5nkkdnc03tu1movm39tk24ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prosperday.mydracma",
+            "certificate_hash": "663972dd1df16d169abb03c0c483b501abdb64de"
+          }
+        },
+        {
+          "client_id": "764497180241-83dp01u22hk59jbqcdsut78cffsmoapu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prosperday.mydracma",
+            "certificate_hash": "efdcb4e0c2b6dabd975738097374b802a6684145"
+          }
+        },
+        {
+          "client_id": "764497180241-pdv5a9v62t98feo4ifobvit24cdns1kg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZCsEZmVrzF_9fztGu7JyxUpTWq74vkfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764497180241-pdv5a9v62t98feo4ifobvit24cdns1kg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
